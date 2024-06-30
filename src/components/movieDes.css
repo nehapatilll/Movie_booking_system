@@ -1,0 +1,54 @@
+
+body{
+  background: linear-gradient(
+    90deg,
+rgb(18,3,56)0%,
+rgb(189,17,48)100%
+  );
+}
+.movie-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.movie-rating,
+.movie-description,
+.movie-language {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.movie-details {
+  background: linear-gradient(
+    90deg,
+    rgb(193, 187, 207)0%,
+    rgb(61, 53, 53) 100%
+  );
+  border: 1px solid #5a0515;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+}
+
+.b1 {
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  background-color: #fdfafd;
+  color: rgb(3, 3, 3);
+  font-size: 16px;
+  padding: 16px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  border-color:rgb(13, 193, 46);;
+}
+
+.b1:hover {
+  background-color: rgb(13, 193, 46);
+  color: rgb(252, 254, 252);
+}
+
